@@ -34,15 +34,16 @@ This repository implements a message processing system and a Django-based KPI ma
 
 ### **Message Processor**
 - **Folders**:
-  - `engine`: Contains processing logic, including equation parsing and interpretation.
-  - `ingestor`: Handles reading messages from text files.
-  - `producer`: Manages database storage of processed messages.
-  - `config`: Contains configuration files like `equation_config.json`.
+  - `processing`: Contains processing logic, including equation parsing and interpretation.
+  - `input_ingestor`: Handles reading messages from text files.
+  - `storage`: Manages database storage of processed messages.
+  - `configuration`: Contains configuration files like `equation_config.json`.
+  - `tests`: Contains tests for main folders `.
 - **Files**:
   - `main.py`: Main entry point for the message processing system.
   - `tokenizer.py`: Tokenizes equations for processing.
   - `messages.txt`: Sample text file containing input messages.
-  - `message_processor.db`: SQLite database storing processed messages.
+  - `message_storage.db`: SQLite database storing processed messages.
 
 ### **Django KPI Management**
 - **Project**: `kpi_project`
