@@ -1,0 +1,4 @@
+{
+    "arithmetic": "ATTR + 50 * (ATTR / 10)",
+    "regex": "Regex(ATTR, '^dog')"
+}
